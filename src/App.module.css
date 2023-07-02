@@ -1,0 +1,105 @@
+body {
+    background-color: #BCFAC8;
+  }
+  
+  h2 {
+    color: #80AB89;
+  }
+  
+  .container {
+    background-color: #F5F5F5;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #F5F5F5;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .buttonContainer button {
+    flex-grow: 1;
+    min-width: 0;
+    background-color: #80AB89;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+    box-sizing: border-box; /* Добавленное свойство */
+  }
+  
+  .buttonContainer button:hover {
+    background-color: #BCFAC8;
+  }
+  
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #80AB89;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .listItem:hover {
+    background-color: #BCFAC8;
+  }
+  
+  .settingsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .setting {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .settingButton {
+    background-color: #80AB89;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .settingButton:hover {
+    background-color: #BCFAC8;
+  }
+  
+  .settingDescription {
+    font-size: 0.8em;
+  }
+  
+  .subtitle {
+    margin-top: 20px;
+  }
+  
+  .history {
+    margin-top: 20px;
+  }
+  
